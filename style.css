@@ -64,8 +64,8 @@ h3
 }
 .id_img
 {
-	height: 270px;
-	width: 270px;
+	/*! height: 250; */
+	width: 250px;
 	display: flex;
 	justify-content: center;
 	border-radius: 50%;
@@ -89,6 +89,7 @@ h3
 .conteneur .sous_titre
 {
 	
+	margin-top: 0px;
 } 
 .conteneur .identité
 {
@@ -97,4 +98,3 @@ h3
 	display: flex;
 	flex-direction: column;
 } 
-
