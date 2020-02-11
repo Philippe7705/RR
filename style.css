@@ -98,3 +98,28 @@ h3
 	display: flex;
 	flex-direction: column;
 } 
+#contenu
+{
+	display: flex;
+	height: auto;
+	/*! flex-flow: row wrap; */
+	width: 100%;
+}
+.bloc_gauche
+{
+	display: flex;
+	flex-direction: column;
+	width: 25%;
+}
+
+#principal
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+.formations
+{
+	display: flex;
+	width: 100%;
+}
