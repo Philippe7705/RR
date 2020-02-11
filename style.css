@@ -123,3 +123,7 @@ h3
 	display: flex;
 	width: 100%;
 }
+.title
+{
+	display: flex;
+}
