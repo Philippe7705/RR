@@ -51,6 +51,10 @@ h2
 	font-weight: normal;
 	color: #455a64;
 }
+.title h2
+{
+	padding-left: 40px;
+}
 
 h3 
 {
@@ -155,7 +159,7 @@ h3
 	margin-top: 30%;
 }
 /*mise en forme section principale*/
-.formations
+.formations,.exp_pro,.compétences
 {
 	padding-left: 9%;
 }
@@ -171,7 +175,7 @@ h3
 {
 	display: flex;
 	flex-direction: column;
-	width: 30%;
+	width: 33%;
 }
 .formations .container_list .dates p
 {
@@ -206,13 +210,28 @@ h3
 {
 	display: flex;
 	flex-direction: column;
-	width: 30%;
+	width: 33%;
+}
+.exp_pro .container_list .dates p
+{
+	margin-bottom: 0px;
+	margin-top: 0px;	
 }
 .exp_pro .descr_list
 {
 	display: flex;
 	flex-direction: column;
 	width: 65%;
+}
+.exp_pro .descr_list p
+{
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+.exp_pro .descr_list  p.descr
+{
+	margin-top: 0px;
+	margin-bottom: 18px;
 }
 .compétences .title
 {
@@ -221,7 +240,7 @@ h3
 .compétences ul
 {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 .compétences li 
 {
