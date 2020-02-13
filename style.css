@@ -121,8 +121,8 @@ h3
 {
 	display: flex;
 	flex-direction: column;
-	width: 30.5%;
-	height: auto;
+	width: 30%;
+	/*!height: auto;!*/
 	/*! padding-left: 15px; */
 }
 .bloc_gauche h2
@@ -131,15 +131,28 @@ h3
 }
 .apropos ,.contact, .loisirs
 {
-	height:30%;
-	
-	padding-left: 5%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height:33%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.contact p,.apropos p
+{
+	padding-top: 10%;
+	height: 80%;
+}
+.apropos p
+{
+	text-align: justify;
 }
 .contenu_loisirs
 {
 	display: flex;
 	/*! margin-right: 30px; */
 	justify-content: space-around;
+	margin-top: 30%;
 }
 /*mise en forme section principale*/
 .formations
