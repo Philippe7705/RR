@@ -8,6 +8,7 @@ body {
 	/*! margin-right: 10%; */
 	/*! margin-right: 20%; */
 	/*! margin-left: 20%; */
+	margin: auto;
 }
 
 /*les icones*/
@@ -61,23 +62,31 @@ h3
 {
 	display: flex;
 	width: 100%;
+	height: 300px;
 }
 .id_img
 {
 	/*! height: 250; */
-	width: 250px;
+	width: 20%;
 	display: flex;
 	justify-content: center;
-	border-radius: 50%;
-	border: 5px solid #737373;
-	margin: 15px;
-	/*! background-color: gray; */
+	/*! border-radius: 50%; */
+	/*! border: 5px solid #737373; */
+	/*! margin: 15px; */
+	background-color: gray;
+	align-items: center;
 }
 .id_img img
 {
-	width: 250px;
-	height: 250px;
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	border: 5px solid #737373;
+	/*! align-items: center; */
+	/*! display: flex; */
+	/*! align-items: center; */
 }
+/*mise en forme titre principal*/
 .conteneur
 {
 	display: flex;
@@ -97,7 +106,9 @@ h3
 	justify-content: center;
 	display: flex;
 	flex-direction: column;
-} 
+	padding-left: 7%;
+}
+/*mise en forme page principale*/
 #contenu
 {
 	display: flex;
@@ -105,29 +116,104 @@ h3
 	/*! flex-flow: row wrap; */
 	width: 100%;
 }
+/*mise en forme aside*/
 .bloc_gauche
 {
 	display: flex;
 	flex-direction: column;
-	width: 25%;
+	width: 30.5%;
+	height: auto;
+	/*! padding-left: 15px; */
 }
-
-#principal
+.bloc_gauche h2
+{
+	text-align: center;
+}
+.apropos ,.contact, .loisirs
+{
+	height:30%;
+	
+	padding-left: 5%;
+}
+.contenu_loisirs
+{
+	display: flex;
+	/*! margin-right: 30px; */
+	justify-content: space-around;
+}
+/*mise en forme section principal*/
+.formations
+{
+	padding-left: 9%;
+}
+.formations .title
+{
+	display: flex;
+}
+.formations .container_list
+{
+	display: flex;
+}
+.formations .container_list .dates
 {
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+	width: 30%;
 }
-.formations
+.formations .container_list .dates p
+{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.formations .descr_list
 {
 	display: flex;
-	width: 100%;
+	flex-direction: column;
+	width: 65%;
 }
-.title
+.formations .descr_list p
+{
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+.formations .descr_list  p.arg
+{
+	margin-top: 0px;
+	margin-bottom: 18px;
+}
+.exp_pro .title
 {
 	display: flex;
 }
-.dates
+.exp_pro .container_list
 {
-	
+	display: flex;
+}
+.exp_pro .container_list .dates
+{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+}
+.exp_pro .descr_list
+{
+	display: flex;
+	flex-direction: column;
+	width: 65%;
+}
+.compétences .title
+{
+	display: flex;
+}
+.compétences ul
+{
+	display: flex;
+	justify-content: space-between;
+}
+.compétences li 
+{
+	/*! display: flex; */
+	/*! flex-direction: column; */
+	/*! justify-content: space-between; */
+	list-style: none;
 }
