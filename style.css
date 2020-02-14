@@ -1,6 +1,6 @@
 body {
 	width: 100%;
-	background-color: black;
+	background-color: whitesmoke;
 	font-family: 'Poppins';
 	font-size: 18px;
 	color: #737373;
@@ -15,7 +15,7 @@ body {
 .fas 
 {
 	font-size: 30px;
-	padding-left: 3px;
+	padding-left: 5px;
 }
 
 /*les liens*/
@@ -35,17 +35,17 @@ h1 span
 .trait_souligne
 {
 	
-	width: 9%;
+	width: 48%;
  	padding-top: 5px;
  	border-bottom: 1px solid #455a64;
 }
 .trait_souligne_section
 {
 	
-	width: 97%;
+	width: 96%;
  	padding-top: 5px;
  	border-bottom: 1px solid #455a64;
-	margin-left: 16px;
+	margin-left: 5px;
 }
 /*formatage des titres*/
 h1, h2, h3 
@@ -83,23 +83,17 @@ h3
 .entete
 {
 	display: flex;
-	width: auto;
-	height: auto;
+	/*! width: 100%; */
+	/*! height: auto; */
 }
 .id_img
 {
-	/*! height: 250; */
-	width: 273px;
+	width: 303px;
 	display: flex;
 	justify-content: center;
 	align-items: center; 
-	align-items: center;
-	/*! border-radius: 50%; */
-	/*! border: 5px solid #737373; */
-	/*! margin: 15px; */
 	background-color: #feca07;
-	/*! align-items: center; */
-	padding: 15px;
+	height: 303px;
 }
 .id_img img
 {
@@ -113,8 +107,8 @@ h3
 .conteneur
 {
 	display: flex;
-	height: auto;
-	flex-flow: row wrap;
+	/*! height: auto; */
+	/*! flex-flow: row wrap; */
 	width: 100%;
 	/*! justify-content: center; */
 }	
@@ -123,15 +117,16 @@ h3
 	
 	margin-top: 0px;
 	margin-bottom: 0px;
+	font-size: 24px;
 } 
 .conteneur .identité
 {
-	width: auto;
+	/*! width: auto; */
 	justify-content: center;
 	display: flex;
 	flex-direction: column;
 	padding-left: 7%;
-	background-color: black;
+	background-color: whitesmoke;
 }
 /*mise en forme page principale*/
 #principal
@@ -142,9 +137,9 @@ h3
 #contenu
 {
 	display: flex;
-	height: auto;
+	/*! height: auto; */
 	/*! flex-flow: row wrap; */
-	width: 100%;
+	/*! width: 100%; */
 }
 /*mise en forme aside*/
 .bloc_gauche
@@ -174,21 +169,25 @@ h3
 }
 .contact p,.apropos p
 {
-	padding-top: 10%;
-	height: 80%;
+	/*! padding-top: 10%; */
+	/*! height: 80%; */
 	padding-left: 10%;
 	padding-right: 10%;
+	/*! padding-bottom: %; */
 }
 .apropos p
 {
 	text-align: justify;
+	width: 100px;
+	width: 242px;
+	height: 870px;
 }
 .contenu_loisirs
 {
 	display: flex;
 	/*! margin-right: 30px; */
 	justify-content: space-around;
-	margin-top: 30%;
+	/*! margin-top: 30%; */
 }
 /*mise en forme section principale*/
 .formations,.exp_pro,.compétences
@@ -283,13 +282,79 @@ h3
 }
 /*     Format tablette      */
 
-@media screen and (min-width: 768px) {
-	.id_img {
-		/*! width: 144px; */
-		/*! display: flex; */
-		/*! justify-content: center; */
-		/*! background-color: #feca07; */
-		/*! padding: 15px; */
+@media screen and (max-width: 768px) {
+
+	.id_img
+	{
+	 width: 769px;	
+	 height: 200px;
+	}
+	.conteneur
+	{
+	flex-direction: column;
+	align-items: center;
+	}
+	.sous_titre 
+	{
+	text-align: center;
+	}
+	.trait_souligne
+	{
+	padding-left: 92px;
+	margin-left: 89px;
+	width: 22%;
+	}
+		 
+	#contenu 
+	{
+	flex-flow: row wrap;
+	}
+	.bloc_gauche
+	{
+	width: 100%;
+	}
+	.contenu_loisirs
+	{
+	margin: 0px;
+	}
+	#ordre
+	{
+		display: flex;
+	}
+	#ordre .bloc_gauche
+	{
+		order: 2;
+	}
+	#ordre #principal
+	{
+		order:1;
+	}
+	.formations, .exp_pro, .compétences
+	{
+		padding:0%;
+	}
+	section.formations 
+	{
+		padding-top: 15px;
+	}
+	.formations,.exp_pro,.compétences ul
+		{
+		/*! padding-left: 0px; */
+		/*! padding-bottom: 0px; */
+		padding: 0px;
 	   }
-	
+	   .apropos p
+	   {
+		width: auto;
+		height: auto;
+	   }
+	   .fas 
+	   {
+		   padding-left: 12px;
+	   }
+	   .trait_souligne_section
+	   {
+	margin-left: 11px;
+	width: 95%;
+	   }
 }
