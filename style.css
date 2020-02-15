@@ -14,10 +14,17 @@ body {
 /*les icones*/
 .fas 
 {
-	font-size: 30px;
-	padding-left: 5px;
+	font-size: 41px;
+	padding-left: 0px;
+	
 }
-
+.contenu_loisirs .fas 
+{
+	height: auto;
+	width: auto;
+	border-radius: 50%;
+	border: 2px solid #737373;
+}
 /*les liens*/
 a 
 {
@@ -36,15 +43,16 @@ h1 span
 {
 	
 	width: 48%;
- 	padding-top: 5px;
- 	border-bottom: 1px solid #455a64;
+ 	padding-top: 0px;
+ 	border-bottom: 1px solid #feca07;
+	/*! color: #feca07; */
 }
 .trait_souligne_section
 {
-	
+	/*! color: #feca07; */
 	width: 96%;
  	padding-top: 5px;
- 	border-bottom: 1px solid #455a64;
+ 	border-bottom: 1px solid #feca07;
 	margin-left: 5px;
 }
 /*formatage des titres*/
@@ -189,7 +197,18 @@ h3
 	justify-content: space-around;
 	/*! margin-top: 30%; */
 }
+.contenu_loisirs .fas fa
+{
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	border: 2px solid #737373;
+}
 /*mise en forme section principale*/
+#principal span 
+{
+	color:#feca07;
+}
 .formations,.exp_pro,.compétences
 {
 	padding-left: 8%;
@@ -313,6 +332,14 @@ h3
 	{
 	width: 100%;
 	}
+	.info p span
+	{
+		display: flex;
+		flex-direction: row;
+		font-size: 16;
+		padding: 0px;
+		width: auto;
+	}
 	.contenu_loisirs
 	{
 	margin: 0px;
@@ -335,7 +362,8 @@ h3
 	}
 	section.formations 
 	{
-		padding-top: 15px;
+		padding-top: 27px;
+		/*! display: flex; */
 	}
 	.formations,.exp_pro,.compétences ul
 		{
@@ -348,13 +376,67 @@ h3
 		width: auto;
 		height: auto;
 	   }
+	.compétences li,.compétences h3
+		{
+		text-align: center;
+		}
 	   .fas 
 	   {
-		   padding-left: 12px;
+		padding-left: 0px;
 	   }
 	   .trait_souligne_section
 	   {
-	margin-left: 11px;
-	width: 95%;
+		margin-left: 11px;
+		width: 95%;
 	   }
+	   .info {
+		display: flex;
+		width: 100%;
+		font-size: 18px;
+		margin-left: 7px;
+		flex-flow: row wrap;
+	   }
+	   .info p 
+	   {
+		   width: 186px;
+		   /*! padding-right: 10%; */
+		   /*! padding-left: 15%; */
+		   /*! display: flex; */
+		   margin-right: 5%;
+	   }
+}
+@media screen and (max-width: 375px) {
+
+	.conteneur .identité 
+	{
+	padding-left: 0px;
+	}
+	#principal .container_list
+	{
+
+	flex-direction: column;
+	}  
+	#principal .container_list .dates
+	{
+	flex-direction: row;
+	width: 100%;
+	}
+	#principal .container_list .descr_list
+	{
+	width: 100%;
+	}
+	.info
+	{
+	margin-left: 3px;
+	}
+	.info p
+	{
+	width: auto;
+	padding: 0px;
+	}
+	.compétences li,.compétences h3
+	{
+		text-align: center;
+	}
+
 }
