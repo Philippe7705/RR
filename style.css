@@ -20,10 +20,12 @@ body {
 }
 .contenu_loisirs .fas 
 {
-	height: auto;
-	width: auto;
+	height: 57px;
+	width: 57px;
 	border-radius: 50%;
 	border: 2px solid #737373;
+	padding-left: 9px;
+	padding-top: 11px;
 }
 /*les liens*/
 a 
@@ -96,7 +98,7 @@ h3
 }
 .id_img
 {
-	width: 302px;
+	min-width: 303px;
 	display: flex;
 	justify-content: center;
 	align-items: center; 
@@ -154,7 +156,7 @@ h3
 {
 	display: flex;
 	flex-direction: column;
-	width: 22.6%;
+	min-width: 303px;
 	background-color: #feca07;
 	/*! height: auto; */ /*!*/
 	/*! padding-left: 15px; */
@@ -428,11 +430,14 @@ h3
 	.info
 	{
 	margin-left: 3px;
+	justify-content: space-around;
 	}
 	.info p
 	{
 	width: auto;
 	padding: 0px;
+	width: 139px;
+	padding-left: 29px;
 	}
 	.compétences li,.compétences h3
 	{
