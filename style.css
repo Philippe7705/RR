@@ -217,7 +217,7 @@ h3
 {
 	color:#feca07;
 }
-.formations,.exp_pro,.compétences
+.formations,.exp_pro,.reco
 {
 	padding-left: 8%;
 }
@@ -291,21 +291,33 @@ h3
 	margin-top: 0px;
 	margin-bottom: 18px;
 }
-.compétences .title
+#contener_reco
+{
+	display: flex;
+	flex-direction: column;
+}
+.reco .title
 {
 	display: flex;
 }
-.compétences ul
+.reco ul
 {
 	display: flex;
 	justify-content: space-around;
+	padding-right: 20%;
 }
-.compétences li 
+.reco li 
 {
-	/*! display: flex; */
 	/*! flex-direction: column; */
 	/*! justify-content: space-between; */
 	list-style: none;
+	/*! display: flex; */
+}
+
+.nom_reco h4
+{
+	text-transform: uppercase;
+	color: #455a64;
 }
 .bas {
 	
@@ -413,7 +425,7 @@ h3
 	{
 		order:1;
 	}
-	.formations, .exp_pro, .compétences
+	.formations, .exp_pro, .reco
 	{
 		padding:0%;
 	}
@@ -422,7 +434,7 @@ h3
 		padding-top: 27px;
 		/*! display: flex; */
 	}
-	.formations,.exp_pro,.compétences ul
+	.formations,.exp_pro,.reco ul
 		{
 		/*! padding-left: 0px; */
 		/*! padding-bottom: 0px; */
@@ -435,9 +447,9 @@ h3
 		margin-top: 15px;
 		margin-bottom: 15px;
 	   }
-	.compétences li,.compétences h3
+	.reco li,.reco h3
 		{
-		text-align: center;
+		text-align: left;
 		}
 	   .fas 
 	   {
@@ -520,9 +532,11 @@ h3
 	width: 139px;
 	padding-left: 29px;
 	}
-	.compétences li,.compétences h3
+	.reco li,.reco h3
 	{
-		text-align: center;
+		text-align: left;
+		font-size: 14px;
+		width: 118px;
 	}
 	h3 
 	{
@@ -533,6 +547,7 @@ h3
 		margin-top: 5px;
 		margin-bottom: 0px;
 		padding-bottom: 0px;
+		padding-left: 10px;
 	}
 	.trait_souligne_section
 	{
@@ -560,5 +575,9 @@ h3
 		margin-top: 2px;
 		margin-bottom: 7px;
 	   }
-		  
+	   .reco ul{
+		width: auto;
+		padding-left: 19px;
+	   }
+			 
 }
