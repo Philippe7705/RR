@@ -178,7 +178,7 @@ h3
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	/*! height:33%; */
+	height:100%;
 	/*! padding-left: 10%; */
 	/*! padding-right: 10%; */
 }
@@ -203,7 +203,7 @@ h3
 	display: flex;
 	/*! margin-right: 30px; */
 	justify-content: space-around;
-	/*! margin-top: 30%; */
+	margin-top: 0%;
 }
 .contenu_loisirs .fas fa
 {
@@ -313,7 +313,12 @@ h3
 	list-style: none;
 	/*! display: flex; */
 }
+.nom_reco p
+{
 
+	/*! color: #455a64; */
+	
+}
 .nom_reco h4
 {
 	text-transform: uppercase;
