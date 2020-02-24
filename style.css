@@ -393,6 +393,9 @@ h3 {
 /*     Format smartphone      */
 @media screen and (max-width: 375px) {
 
+	.id_img {
+		width: 375px;
+	}
 	.conteneur .identité {
 	padding-left: 0px;
 	}
