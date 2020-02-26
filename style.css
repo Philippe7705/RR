@@ -42,7 +42,7 @@ h1 span {
 .trait_souligne_section{
 	width: 96%;
  	padding-top: 5px;
- 	border-bottom: 1px solid #feca07;
+ 	border-bottom: 2px solid #feca07;
 	margin-left: 5px;
 }
 /*formatage des titres*/
@@ -65,6 +65,7 @@ h2 {
 }
 .title h2 {
 	padding-left: 40px;
+	padding-top: 8px;
 }
 h3 {
 	font-size: 22px;
@@ -322,7 +323,7 @@ h3 {
 	.info p span{
 		display: flex;
 		flex-direction: row;
-		font-size: 16;
+		font-size: 16px;
 		padding: 0px;
 		width: auto;
 	}
