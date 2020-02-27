@@ -320,6 +320,7 @@ h3 {
 	}
 	#contenu {
 	flex-flow: row wrap;
+	width: 100%;
 	}
 	.bloc_gauche{
 	width: 100%;
@@ -392,9 +393,9 @@ h3 {
 		display: none;
 	}
 	.reseau p {
-	margin-left: 259px;
-	width: 330px;
-	margin-left: 221px;
+	/*! margin-left: 259px; */
+	/*! width: 330px; */
+	margin-left: 229px;
 	}
 	.icone_reseau {
 		margin-left: 0px;
