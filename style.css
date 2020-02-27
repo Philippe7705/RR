@@ -58,7 +58,7 @@ h1 {
 	color: #9e9e9e;
 }
 h2 {
-	width: 100%;
+	width: 75%;
 	font-size: 26px;
 	font-weight: normal;
 	color: #455a64;
@@ -257,35 +257,26 @@ h3 {
 }
 .bas {
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
-	background-color:#455a64;
-	height: 48px;
-	width: 100%;
+	background-color:black;
+	
 }
 /*mise en forme Footer*/ 
-.cadre_gauche {
-	/*! width: 303px; */
-	background-color: #455a64;
-	margin-right: 0px;
-}
+
 .bas p {
-	padding-top: 2px;
-	margin-right: 21px;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	width: 100%;
+	background-color: black;
+	justify-content: center;
+}
+.bas img{
+	margin-right:30px;
 }
 .copyright p {
-	margin-top: 7px;
+	margin-top: 26px;
 	display: flex;
+	width: 121px;
 }
-.reseau {
-	display: flex;
-}
-.reseau p {
-	height: 46px;
-	display: flex;
-	justify-content: space-around;
+
 }
 .copyright {
 	 padding-right: 10px;
@@ -373,7 +364,7 @@ h3 {
 	}
 	.trait_souligne_section{
 		margin-left: 50px;
-		width: 90%;
+		width: 80%;
 		padding-top: 0px;
 	}
 	.info {
@@ -389,18 +380,12 @@ h3 {
 		   width: 186px;
 		   margin-right: 5%;
 	}
-	.cadre_gauche {
-		display: none;
+	.bas{
+		display:none;
 	}
-	.reseau p {
-	/*! margin-left: 259px; */
-	/*! width: 330px; */
-	margin-left: 229px;
-	}
-	.icone_reseau {
-		margin-left: 0px;
-		width: 94px;
-	}
+	
+	
+	
 }
 /*     Format smartphone      */
 @media screen and (max-width: 600px) {
@@ -450,6 +435,10 @@ h3 {
 		font-size: 14px;
 		width: 118px;
 	}
+	.reco li {
+		list-style: none;
+		font-size: 10px;
+	}
 	h3 {
 	font-size: 20px;
 	}
@@ -457,39 +446,22 @@ h3 {
 		margin-top: 5px;
 		margin-bottom: 0px;
 		padding-bottom: 0px;
-		padding-left: 10px;
+		padding-left: 11px;
 	}
 	.trait_souligne_section{
-		width: 85%;
-		margin-left: 50px;
+		width: 76%;
+		margin-left: 53px;
 		padding-top: 0px;
 	}
-	.cadre_gauche {
-		display: none;
+	.bas{
+		display:none;
 	}
-	.copyright{
-		display: none;
-	}
-	.reseau p{
-		padding: 0px;
-		margin: 7px;
-		/*! margin-left: 8px; */
-		/*! margin-right: 0px; */
-		/*! font-size: 18px; */
-		padding-left: 49px;
-	}
-	.bas {
-		height: 53px;
-		width: 100%;
-	}
+	
+	
+	   
 }
 @media screen and (max-width: 339px) {
-  	.reseau p {
-    margin: 0px;
-    padding-left: 6px;
-    padding-top: 2px;
-	}
-	.identité h1{
+  	.identité h1{
 	font-size: 30px;
 	}
 	.formations ul {
@@ -504,12 +476,23 @@ h3 {
 	.exp_pro ul {
 	padding-left: 23px;
 	}
-	.reco .title h2 {
-	padding-left: 0px;
+	.reco li {
+		list-style: none;
+		font-size: 10px;
 	}
-	.reseau {
-	width: 100%;
-	justify-content: center;
-  	}
+	.reco .title h2 {
+	padding-left: 35px;
+	}
+	#principal span {
+		display:none
+	}
+	.trait_souligne_section {
+		width: 85%;
+		margin-left: 36px;
+		padding-top: 0px;
+	}
+	.bas{
+		display:none;
+	}
 }
 
