@@ -276,7 +276,7 @@ h3 {
 	margin-bottom: 0px;
 }
 .copyright p {
-	margin-top: 13px;
+	margin-top: 7px;
 	display: flex;
 }
 .reseau {
@@ -393,8 +393,8 @@ h3 {
 	}
 	.reseau p {
 	margin-left: 259px;
-	width: 252px;
-	margin-right: 0px;
+	width: 330px;
+	margin-left: 221px;
 	}
 	.icone_reseau {
 		margin-left: 0px;
@@ -475,10 +475,37 @@ h3 {
 		margin-left: 8px;
 		margin-right: 0px;
 		font-size: 18px;
-		padding-left: 62px;
+		padding-left: 6px;
 	}
 	.bas {
 		height: 53px;
 		width: 100%;
 	}
 }
+@media screen and (max-width: 339px) {
+  	.reseau p {
+    margin: 0px;
+	}
+	.identité h1{
+	font-size: 30px;
+	}
+	.formations ul {
+	width: unset;
+	}
+	#contenu {
+	width: 100%;
+	}
+	#principal {
+	width: 100%;
+	}
+	.exp_pro ul {
+	padding-left: 23px;
+	}
+	.reco .title h2 {
+	padding-left: 0px;
+	}
+	.reseau {
+	width: 100%;
+  	}
+}
+
