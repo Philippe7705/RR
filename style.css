@@ -265,7 +265,7 @@ h3 {
 }
 /*mise en forme Footer*/ 
 .cadre_gauche {
-	width: 303px;
+	/*! width: 303px; */
 	background-color: #455a64;
 	margin-right: 0px;
 }
@@ -473,10 +473,10 @@ h3 {
 	.reseau p{
 		padding: 0px;
 		margin: 7px;
-		margin-left: 8px;
-		margin-right: 0px;
-		font-size: 18px;
-		padding-left: 6px;
+		/*! margin-left: 8px; */
+		/*! margin-right: 0px; */
+		/*! font-size: 18px; */
+		padding-left: 49px;
 	}
 	.bas {
 		height: 53px;
@@ -486,12 +486,14 @@ h3 {
 @media screen and (max-width: 339px) {
   	.reseau p {
     margin: 0px;
+    padding-left: 6px;
+    padding-top: 2px;
 	}
 	.identité h1{
 	font-size: 30px;
 	}
 	.formations ul {
-	width: unset;
+	padding-left: 23px;
 	}
 	#contenu {
 	width: 100%;
@@ -507,6 +509,7 @@ h3 {
 	}
 	.reseau {
 	width: 100%;
+	justify-content: center;
   	}
 }
 
